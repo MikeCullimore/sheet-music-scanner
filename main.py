@@ -2,6 +2,7 @@
 main.py
 
 todo:
+Replace desaturate with method like GIMP > Colours > Desaturate > Colour to Grey.
 Optimise contrast (like GIMP manual)
 """
 
