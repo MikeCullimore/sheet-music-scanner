@@ -2,6 +2,16 @@
 main.py
 
 todo:
+Try existing dewarping libs.
+    page-dewarp:
+        https://github.com/lmmx/page-dewarp
+        https://mzucker.github.io/2016/08/15/page-dewarping.html
+        Missing toml from requirements.txt: raise PR!
+        Output: Lo How a Rose GIMP_thresh.png
+        Straightness not bad but crops the image left and right: why? Fix?
+        Also not horizontal.
+        Command line options?
+Hough transform to detect rotation (then correct for it).
 Analyse 'Lo How a Rose GIMP.jpg'
     Stave line straightness
     Bar line verticality.
@@ -10,7 +20,7 @@ Analyse 'Lo How a Rose GIMP.jpg'
     Stave line spacing.
 Replace desaturate with method like GIMP > Colours > Desaturate > Colour to Grey.
 Optimise contrast (like GIMP via Levels).
-OpenCV rather than Pillow?
+OpenCV or scikit-image rather than Pillow?
 Type annotations.
 """
 
