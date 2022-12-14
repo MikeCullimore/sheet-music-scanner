@@ -12,6 +12,8 @@ Try existing dewarping libs.
         Also not horizontal.
         Command line options?
 Hough transform to detect rotation (then correct for it).
+    https://scikit-image.org/docs/stable/auto_examples/edges/plot_line_hough_transform.html?highlight=hough%20transform
+    Or use as metric for optimising dewarp?
 Analyse 'Lo How a Rose GIMP.jpg'
     Stave line straightness
     Bar line verticality.
